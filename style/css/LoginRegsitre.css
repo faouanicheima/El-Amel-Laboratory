@@ -1,0 +1,24 @@
+﻿ .center {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+         button {
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+        }
+
+        hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+  }

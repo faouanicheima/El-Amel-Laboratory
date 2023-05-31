@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../inc"
+		},
+		{
+			"path": "../patientpanel"
+		},
+		{
+			"path": "../secpanel"
+		},
+		{
+			"path": "../style"
+		}
+	]
+}

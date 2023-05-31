@@ -1,0 +1,173 @@
+body {
+    width: 100%;
+    float: left;
+}
+ *{
+    margin: 0;
+    padding : 0;
+    font-family: sans-serif ;
+}
+.container {
+   width:100%;
+   height:50vh;
+   background-image:  url(style/img/bg.jpg) ;
+   background-size: contain;
+   background-position: center;
+   background-repeat:no-repeat
+}
+
+/* start Header */
+.navbar {
+width: 85% ;
+margin : auto ;
+padding :35 px 0 ;
+display : flex ;
+align-items: center;
+justify-content: space-between;
+color:black;
+}
+.navbar img {
+    height:100px;
+}
+.navbar ul li {
+    list-style: none ;
+    display : inline-block;
+    margin : 0 20px ;
+    color: black;
+    text-transform: uppercase; /* make the text uppercase */
+}
+
+.navbar ul li a {
+  text-decoration: none ;
+}
+.navbar ul li:hover {
+    color: red; /* set the color to red when the user hovers over the element */
+}
+.class1,.class2,.class3 {
+    width: 33.33%;
+    float: left;
+    height: 100px;
+}
+
+p {
+    padding-top: 25px;
+    text-align: center;
+}
+h3,#serviceT{
+    text-align: center;
+    margin: auto ;
+    padding :auto ;
+}
+ul {
+    list-style-type : circle;
+}
+/*END Header */
+.questionsDIV {
+text-align: center;
+    margin-top: 100px;
+width: 80%;
+margin: 0 auto; 
+}
+.centre {
+    margin: 0 auto; /* center the div horizontally */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 80%; /* adjust the width to your liking */
+
+}
+.info{
+ text-align: center;
+ 
+ }
+
+.box {
+    display: inline-block;
+    width: 33%; /* adjust as needed */
+    height: 100px; /* adjust as needed */
+}
+
+.fa-ul {
+        list-style-type: none;
+        padding: 0;
+        display: inline-block;
+    text-align: left; /* Optional: align the list items to the left */
+    padding: 0; /* Optional: remove default padding */
+    }
+.fa-li {
+        margin: 0;
+        display: inline-block;
+        width: 2em;
+        text-align: center;
+    }
+.fa-li::before {
+        content: "";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 1.5em;
+        color: #e21b24;
+    }
+/* start Footer */
+footer {
+  background:  #31364a ;
+    color : #ffffff;
+}
+
+footer a {
+        color: white;
+}
+.upper-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 30%;
+   margin-top:30px;
+    /* add any other styles you want for each column here */
+}
+
+.lower-footer {
+    text-align: center;
+}
+
+footer  .fa-ul {
+list-style-type: none;
+padding: 0;
+display: inline-block;
+        text-align: left; /* Optional: align the list items to the left */
+        padding: 0; /* Optional: remove default padding */
+        }
+footer .fa-li {
+            margin: 0;
+            display: inline-block;
+            width: 2em;
+            text-align: center;
+        }
+        footer .fa-ul li {
+             display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* add some space between list items */
+        }
+footer .fa-li::before {
+            content: "";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 1.5em;
+            color: #8A2BE2;
+        }
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+.social-icons i {
+    margin-right: 10px;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+/* End Footer */
+
